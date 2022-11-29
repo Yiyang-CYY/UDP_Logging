@@ -36,7 +36,7 @@ typedef struct UDP_frame_struct {
 typedef struct IPV4_UDP_struct {
   ETH_II_frame_T ETH_frame;
   IPV4_frame_T   IPV4_frame;
-  UDP_frame_T    UDP_frame
+  UDP_frame_T    UDP_frame;
 } IPV4_UDP_T;
 
 #endif // UDP_LOGGING_DATA_FORMAT_H
